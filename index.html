@@ -1,225 +1,546 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Mônica Rosa | Personal Trainer</title>
+
+    <meta name="description"
+        content="Treinos personalizados para emagrecimento, hipertrofia e qualidade de vida. Atendimento presencial e online.">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/style.css"> 
 </head>
+
 <body>
-    <!-- Cabeçalho Fixo -->
-    <header class="cabecalho" id="cabecalho">
-        <div class="container">
-            <a href="#" class="logo">Mônica Rosa <span>Personal Trainer</span></a>
-            
-            <nav class="navegacao" id="navegacao">
-                <button class="btn-fechar" id="btn-fechar">
-                    <i class="fas fa-times"></i>
-                </button>
-                <ul class="menu">
-                    <li><a href="#sobre">Sobre mim</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#depoimentos">Depoimentos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-                <a href="#contato" class="btn btn-destaque">Agende sua avaliação</a>
-            </nav>
-            
-            <button class="btn-menu" id="btn-menu">
-                <i class="fas fa-bars"></i>
-            </button>
-        </div>
-    </header>
 
-    <!-- Seção Hero -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-conteudo">
-                <h1>Transforme seu corpo e sua rotina, sem complicações</h1>
-                <p>Treinos personalizados para você alcançar seus objetivos, com segurança e acompanhamento próximo. Emagrecimento, ganho de massa, condicionamento ou qualidade de vida — eu crio o treino que cabe na sua vida.</p>
-                <div class="hero-botoes">
-                    <a href="#contato" class="btn btn-destaque">Agende sua avaliação gratuita</a>
-                    <a href="https://wa.me/5541999999999" target="_blank" class="btn btn-contorno">
-                        <i class="fab fa-whatsapp"></i> Converse no WhatsApp
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+ 
 
-    <!-- Benefícios -->
-    <section class="beneficios">
-        <div class="container">
-            <h2>Por que escolher meu trabalho?</h2>
-            <div class="grade-beneficios">
-                <div class="card-beneficio">
-                    <i class="fas fa-list-check"></i>
-                    <h3>Treino 100% personalizado</h3>
-                    <p>Adaptado aos seus objetivos, limitações e rotina do dia a dia.</p>
-                </div>
-                <div class="card-beneficio">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>Acompanhamento completo</h3>
-                    <p>Evolução mensal, ajustes e dicas de hábitos saudáveis.</p>
-                </div>
-                <div class="card-beneficio">
-                    <i class="fas fa-handshake"></i>
-                    <h3>Apoio e motivação</h3>
-                    <p>Você não estará sozinho(a) em cada passo da sua jornada.</p>
-                </div>
-                <div class="card-beneficio">
-                    <i class="fas fa-laptop-house"></i>
-                    <h3>Flexibilidade</h3>
-                    <p>Atendimento presencial ou online, onde for melhor para você.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- WhatsApp -->
 
-    <!-- Sobre Mim -->
-    <section class="sobre" id="sobre">
-        <div class="container">
-            <div class="sobre-conteudo">
-                <div class="sobre-imagem">
-                    <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Mônica Rosa - Personal Trainer">
-                </div>
-                <div class="sobre-texto">
-                    <h2>Sobre mim</h2>
-                    <p>Olá, sou a Mônica! Sou educadora física, formada pela Universidade Federal do Paraná, com especialização em fisiologia do exercício e treinamento para pessoas de todas as idades.</p>
-                    <p>Há mais de 8 anos ajudo pessoas a transformar a relação com o próprio corpo: seja para emagrecer, se sentir mais disposto, recuperar a mobilidade ou até superar desafios. Acredito que o movimento deve ser algo prazeroso e acessível para todos!</p>
-                    <a href="#contato" class="btn btn-destaque">Converse comigo</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <a href="https://wa.me/5541999894547"
+        class="whatsapp"
+        target="_blank">
 
-    <!-- Serviços -->
-    <section class="servicos" id="servicos">
-        <div class="container">
-            <h2>Meus Serviços</h2>
-            <div class="grade-servicos">
-                <div class="card-servico">
-                    <i class="fas fa-dumbbell"></i>
-                    <h3>Personal Presencial</h3>
-                    <ul>
-                        <li>Atendimento em Curitiba e região</li>
-                        <li>Treinos ajustados a cada sessão</li>
-                        <li>Acompanhamento da execução</li>
-                    </ul>
-                </div>
-                <div class="card-servico">
-                    <i class="fas fa-globe"></i>
-                    <h3>Treinamento Online</h3>
-                    <ul>
-                        <li>Planos com vídeos explicativos</li>
-                        <li>Acompanhamento semanal</li>
-                        <li>Ideal para rotina corrida</li>
-                    </ul>
-                </div>
-                <div class="card-servico">
-                    <i class="fas fa-clipboard-list"></i>
-                    <h3>Avaliação e Consultoria</h3>
-                    <ul>
-                        <li>Análise de condicionamento</li>
-                        <li>Orientações de hábitos</li>
-                        <li>Planejamento de objetivos</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Depoimentos -->
-    <section class="depoimentos" id="depoimentos">
-        <div class="container">
-            <h2>O que dizem meus alunos</h2>
-            <div class="grade-depoimentos">
-                <div class="card-depoimento">
-                    <p>"Com a Mônica consegui perder 12kg em 6 meses, sem passar fome ou me sentir exausta. Ela sempre ajustou os treinos conforme minhas dores e me manteve motivada!"</p>
-                    <div class="autor">
-                        <strong>Juliana</strong>
-                        <span>38 anos</span>
-                    </div>
-                </div>
-                <div class="card-depoimento">
-                    <p>"Comecei a treinar com 55 anos e hoje me sinto muito mais forte e disposto para as atividades do dia a dia. Recomendo muito para quem quer começar!"</p>
-                    <div class="autor">
-                        <strong>Carlos</strong>
-                        <span>58 anos</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contato -->
-    <section class="contato" id="contato">
-        <div class="container">
-            <h2>Entre em contato</h2>
-            <div class="contato-conteudo">
-                <div class="contato-formulario">
-                    <form id="form-contato">
-                        <div class="grupo-form">
-                            <label for="nome">Seu nome</label>
-                            <input type="text" id="nome" name="nome" required>
-                        </div>
-                        <div class="grupo-form">
-                            <label for="telefone">Seu WhatsApp</label>
-                            <input type="tel" id="telefone" name="telefone" required>
-                        </div>
-                        <div class="grupo-form">
-                            <label for="objetivo">Qual seu objetivo?</label>
-                            <select id="objetivo" name="objetivo" required>
-                                <option value="">Selecione...</option>
-                                <option value="emagrecer">Emagrecer</option>
-                                <option value="massa">Ganhar massa muscular</option>
-                                <option value="condicionamento">Melhorar condicionamento</option>
-                                <option value="outro">Outro objetivo</option>
-                            </select>
-                        </div>
-                        <div class="grupo-form">
-                            <label for="mensagem">Mensagem</label>
-                            <textarea id="mensagem" name="mensagem" rows="4"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-destaque">Enviar mensagem</button>
-                    </form>
-                </div>
-                <div class="contato-info">
-                    <h3>Informações</h3>
-                    <ul>
-                        <li><i class="fas fa-map-marker-alt"></i> Atendimento em Curitiba/PR</li>
-                        <li><i class="fab fa-whatsapp"></i> (41) 9XXXX-XXXX</li>
-                        <li><i class="fab fa-instagram"></i> @monicarosa.personal</li>
-                        <li><i class="fas fa-envelope"></i> contato@monicarosapersonal.com.br</li>
-                    </ul>
-                    <a href="https://wa.me/5541999999999" target="_blank" class="btn btn-contorno">
-                        <i class="fab fa-whatsapp"></i> Chamar no WhatsApp
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Rodapé -->
-    <footer class="rodape">
-        <div class="container">
-            <p>&copy; 2026 Mônica Rosa — Todos os direitos reservados</p>
-            <div class="links-rodape">
-                <a href="#">Política de privacidade</a>
-                <a href="#">Termos de uso</a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Botão WhatsApp Fixo -->
-    <a href="https://wa.me/5541999999999" target="_blank" class="whatsapp-fixo">
         <i class="fab fa-whatsapp"></i>
+
     </a>
 
-    <script src="script.js"></script>
+    <!-- Cabeçalho -->
+
+    <header>
+
+        <div class="container">
+
+            <div class="logo">
+
+                <span>MÔNICA</span>
+
+                ROSA
+
+            </div>
+
+            <nav id="menu">
+
+                <a href="#inicio">Início</a>
+
+                <a href="#sobre">Sobre</a>
+
+                <a href="#servicos">Serviços</a>
+
+                <a href="#depoimentos">Depoimentos</a>
+
+                <a href="#contato">Contato</a>
+
+            </nav>
+
+            <button id="btn-menu">
+
+                <i class="fas fa-bars"></i>
+
+            </button>
+
+        </div>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero" id="inicio">
+
+        <div class="overlay"></div>
+
+        <div class="container hero-grid">
+
+            <div class="hero-texto">
+
+                <span class="tag">
+
+                    PERSONAL TRAINER
+
+                </span>
+
+                <h1>
+
+                    Transforme seu corpo.
+
+                    <span>Transforme sua vida.</span>
+
+                </h1>
+
+                <p>
+
+                    Treinos personalizados para mulheres que desejam emagrecer,
+                    ganhar massa muscular e conquistar autoestima com saúde.
+
+                </p>
+
+                <div class="botoes">
+
+                    <a href="#contato" class="btn rosa">
+
+                        Agendar Avaliação
+
+                    </a>
+
+                    <a href="https://wa.me/5541999999999"
+                        target="_blank"
+                        class="btn transparente">
+
+                        WhatsApp
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-imagem">
+
+                <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80"
+                    alt="Personal Trainer">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- NÚMEROS -->
+
+    <section class="numeros">
+
+        <div class="container">
+
+            <div class="numero">
+
+                <h2 class="contador" data-numero="350">
+
+                    0
+
+                </h2>
+
+                <p>Alunas transformadas</p>
+
+            </div>
+
+            <div class="numero">
+
+                <h2 class="contador" data-numero="8">
+
+                    0
+
+                </h2>
+
+                <p>Anos de experiência</p>
+
+            </div>
+
+            <div class="numero">
+
+                <h2 class="contador" data-numero="98">
+
+                    0
+
+                </h2>
+
+                <p>% de satisfação</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SOBRE -->
+
+    <section id="sobre">
+
+        <div class="container sobre">
+
+            <div class="foto">
+
+                <img src="assets/img/monica.jpeg"
+                    alt="Mônica Rosa">
+
+            </div>
+
+            <div class="texto">
+
+                <span>QUEM SOU</span>
+
+                <h2>
+
+                    Muito prazer,
+
+                    sou Mônica Rosa.
+
+                </h2>
+
+                <p>
+
+                    Minha missão é mostrar que atividade física pode transformar
+                    vidas.
+
+                </p>
+
+                <p>
+
+                    Desenvolvo programas exclusivos para cada aluno,
+                    respeitando objetivos, limitações e rotina.
+
+                </p>
+
+                <ul>
+
+                    <li>
+
+                        <i class="fas fa-check-circle"></i>
+
+                        Atendimento presencial
+
+                    </li>
+
+                    <li>
+
+                        <i class="fas fa-check-circle"></i>
+
+                        Consultoria Online
+
+                    </li>
+
+                    <li>
+
+                        <i class="fas fa-check-circle"></i>
+
+                        Avaliação Física
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+        <!-- SERVIÇOS -->
+
+    <section class="servicos" id="servicos">
+
+        <div class="container">
+
+            <div class="titulo">
+
+                <span>MEUS SERVIÇOS</span>
+
+                <h2>Treinos feitos para o seu objetivo</h2>
+
+                <p>
+                    Escolha a modalidade ideal e tenha acompanhamento profissional
+                    do início ao fim.
+                </p>
+
+            </div>
+
+            <div class="cards-servicos">
+
+                <div class="card">
+
+                    <div class="icone">
+
+                        <i class="fas fa-dumbbell"></i>
+
+                    </div>
+
+                    <h3>Personal Presencial</h3>
+
+                    <p>
+                        Treinos personalizados com acompanhamento individual durante
+                        toda a execução dos exercícios.
+                    </p>
+
+                </div>
+
+                <div class="card destaque">
+
+                    <div class="icone">
+
+                        <i class="fas fa-heart"></i>
+
+                    </div>
+
+                    <h3>Consultoria Online</h3>
+
+                    <p>
+                        Receba seus treinos pelo celular com acompanhamento semanal,
+                        vídeos e suporte via WhatsApp.
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="icone">
+
+                        <i class="fas fa-chart-line"></i>
+
+                    </div>
+
+                    <h3>Avaliação Física</h3>
+
+                    <p>
+                        Avaliação completa para acompanhar sua evolução e definir as
+                        melhores estratégias.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    
+
+    <!-- DEPOIMENTOS -->
+
+    <section class="depoimentos" id="depoimentos">
+
+        <div class="container">
+
+            <div class="titulo">
+
+                <span>DEPOIMENTOS</span>
+
+                <h2>Quem treinou recomenda</h2>
+
+            </div>
+
+            <div class="cards-depoimentos">
+
+                <div class="depoimento">
+
+                    <div class="estrelas">
+
+                        ⭐⭐⭐⭐⭐
+
+                    </div>
+
+                    <p>
+
+                        "Perdi 14kg sem dietas malucas e hoje tenho uma rotina muito
+                        mais saudável."
+
+                    </p>
+
+                    <h4>Juliana • 34 anos</h4>
+
+                </div>
+
+                <div class="depoimento">
+
+                    <div class="estrelas">
+
+                        ⭐⭐⭐⭐⭐
+
+                    </div>
+
+                    <p>
+
+                        "A consultoria online mudou completamente minha forma de
+                        treinar."
+
+                    </p>
+
+                    <h4>Fernanda • 29 anos</h4>
+
+                </div>
+
+                <div class="depoimento">
+
+                    <div class="estrelas">
+
+                        ⭐⭐⭐⭐⭐
+
+                    </div>
+
+                    <p>
+
+                        "Profissional extremamente dedicada. Recomendo de olhos
+                        fechados."
+
+                    </p>
+
+                    <h4>Camila • 41 anos</h4>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CHAMADA -->
+
+    <section class="cta">
+
+        <div class="container">
+
+            <h2>
+
+                Está pronta para transformar seu corpo?
+
+            </h2>
+
+            <p>
+
+                Agende sua avaliação e descubra como atingir seus objetivos com um
+                treino totalmente personalizado.
+
+            </p>
+
+            <a href="https://wa.me/5541999999999" class="btn rosa">
+
+                Quero começar agora
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- CONTATO -->
+
+    <section class="contato" id="contato">
+
+        <div class="container contato-grid">
+
+            <div>
+
+                <span>CONTATO</span>
+
+                <h2>Vamos conversar?</h2>
+
+                <p>
+
+                    Preencha o formulário ou envie uma mensagem pelo WhatsApp.
+
+                </p>
+
+            </div>
+
+            <form id="form-contato">
+
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Seu nome"
+                    required>
+
+                <input
+                    type="tel"
+                    id="telefone"
+                    placeholder="WhatsApp"
+                    required>
+
+                <select>
+
+                    <option>Objetivo</option>
+
+                    <option>Emagrecer</option>
+
+                    <option>Hipertrofia</option>
+
+                    <option>Condicionamento</option>
+
+                </select>
+
+                <textarea
+                    placeholder="Conte um pouco sobre você..."
+                    rows="5"></textarea>
+
+                <button class="btn rosa">
+
+                    Enviar
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <div class="container">
+
+            <div class="logo-footer">
+
+                <h2>MÔNICA ROSA</h2>
+
+                <p>Personal Trainer</p>
+
+            </div>
+
+            <div class="redes">
+
+                <a href="https://www.instagram.com/monica_rosa40?igsh=MThweTg0cGxteGV4Yg==" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                <a href="https://www.facebook.com/share/1Hgijv2xwS/" target="_blank"><i class="fab fa-facebook"></i></a>
+
+                <a href="https://wa.me/5541999894547" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+            </div>
+ 
+            <p class="copyright">
+
+                © 2026 Todos os direitos reservados.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="assets/script.js"></script>
+
 </body>
+
 </html>
